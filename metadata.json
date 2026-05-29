@@ -1,0 +1,6 @@
+{
+  "name": "Gestão de Chamados de Manutenção Mecânica",
+  "description": "Sistema de gestão de manutenção mecânica com autenticação de operador, mecânico e administrador, relatórios, métricas e integração Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
