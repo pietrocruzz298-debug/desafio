@@ -15,6 +15,7 @@ import AdminPanel from './components/AdminPanel';
 import TicketFormModal from './components/TicketFormModal';
 import AtendimentoFormModal from './components/AtendimentoFormModal';
 import TicketDetailModal from './components/TicketDetailModal';
+import SecretariaVirtual from './components/SecretariaVirtual';
 import { 
   Bell, 
   X, 
@@ -253,6 +254,9 @@ function AppContent() {
           onRegistrarAtendimento={(id) => setAtendimentoChamadoId(id)}
         />
       )}
+
+      {/* Floating virtual AI secretary assistant */}
+      <SecretariaVirtual />
 
       {/* FOOTER METRICS AND PLATFORM ACCENTS */}
       <footer className="py-5 bg-white dark:bg-slate-905 border-t border-slate-200 dark:border-slate-800 px-6 block text-center md:text-left select-none text-[10px]">
